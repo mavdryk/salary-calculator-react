@@ -407,4 +407,4 @@ const employees = [
     }
 ]
 
-export {employees}
+export default employees

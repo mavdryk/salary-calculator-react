@@ -1,0 +1,14 @@
+.calc-page {
+  padding: 20px;
+
+  .calc-page-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+    .select-control {
+      margin-right: 50px;
+      width: 150px;
+    }
+  }
+}

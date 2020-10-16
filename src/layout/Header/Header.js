@@ -7,10 +7,10 @@ const Header = () => {
     return (
         <header className="header">
             <NavLink to="/" exact className="main-link">
-                Calculator
+                Обрахунок
             </NavLink>
             <NavLink to="/history" className="main-link">
-                History
+                Історія
             </NavLink>
         </header>
     )

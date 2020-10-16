@@ -8,7 +8,7 @@ import {
 import './App.scss';
 
 import Header from './layout/Header/Header'
-import CalculatorPage from "./components/CalculatorPage/CalculatorPage";
+import CalculationPage from "./components/CalculationPage/CalculationPage";
 import HistoryPage from "./components/HistoryPage/HistoryPage";
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
         <Router>
             <div className="App">
                 <Header/>
-                <Route path="/" exact component={CalculatorPage}/>
+                <Route path="/" exact component={CalculationPage}/>
                 <Route path="/history" exact component={HistoryPage}/>
             </div>
         </Router>
